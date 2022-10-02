@@ -3173,7 +3173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_146
+      name: bullet
       rect:
         serializedVersion: 2
         x: 48
@@ -21737,13 +21737,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_1056
+      name: Pausa
       rect:
         serializedVersion: 2
-        x: 72
-        y: 136
-        width: 8
-        height: 8
+        x: 70
+        y: 134
+        width: 3
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -28489,6 +28489,7 @@ TextureImporter:
       Tiles_1127: 599794568
       Tiles_517: -1098653476
       Tiles_1014: -2083708000
+      bullet: 1012941074
       Tiles_33: 1893207449
       Tiles_881: -584804450
       Tiles_821: 316776452
@@ -28690,7 +28691,6 @@ TextureImporter:
       Tiles_1309: 731636361
       Tiles_454: -461098105
       Tiles_46: -1934327880
-      Tiles_146: 1012941074
       Tiles_928: 174366776
       Tiles_417: -178455618
       Tiles_1239: 354747388
@@ -28757,14 +28757,13 @@ TextureImporter:
       Tiles_982: -1622127098
       Tiles_1022: -1213899529
       Tiles_26: -122939720
-      Tiles_1056: 703683755
+      Tiles_1177: 1834358992
       Tiles_455: -709335306
       Tiles_101: -1971737552
       Tiles_152: 1127436468
       Tiles_974: -448225472
       Tiles_279: -978740028
       Tiles_983: 1762152289
-      Tiles_1177: 1834358992
       Tiles_158: 832139043
       Tiles_171: 1959678546
       Tiles_749: -815888624
@@ -29034,6 +29033,7 @@ TextureImporter:
       Tiles_444: -1948142502
       Tiles_439: -642827984
       Tiles_207: 1810953903
+      Pausa: 703683755
       Tiles_1052: -368085633
       Tiles_1214: 1879853697
       Tiles_787: 998911517
