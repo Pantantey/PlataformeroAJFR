@@ -2396,7 +2396,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Platform_Middle
+      name: Medio
       rect:
         serializedVersion: 2
         x: 32
@@ -3425,7 +3425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_158
+      name: Sup_izq
       rect:
         serializedVersion: 2
         x: 8
@@ -3467,7 +3467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_160
+      name: random_0
       rect:
         serializedVersion: 2
         x: 24
@@ -3530,7 +3530,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_163
+      name: Random_1
       rect:
         serializedVersion: 2
         x: 48
@@ -3572,7 +3572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_165
+      name: Sup_Derecha
       rect:
         serializedVersion: 2
         x: 64
@@ -3782,7 +3782,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_175
+      name: Izquierda
       rect:
         serializedVersion: 2
         x: 8
@@ -3929,7 +3929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_182
+      name: Derecha
       rect:
         serializedVersion: 2
         x: 64
@@ -4160,7 +4160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_193
+      name: Inferior_izq
       rect:
         serializedVersion: 2
         x: 8
@@ -4307,7 +4307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_200
+      name: Inferior_der
       rect:
         serializedVersion: 2
         x: 64
@@ -6197,13 +6197,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_290
+      name: Arbolillo0
       rect:
         serializedVersion: 2
         x: 128
-        y: 520
-        width: 8
-        height: 8
+        y: 504
+        width: 16
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6213,27 +6213,6 @@ TextureImporter:
       bones: []
       spriteID: 0c32fc0cf22c794498bdfea2ef6df36f
       internalID: 297790172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_291
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 520
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7236709e049b8494394f9d67391eda4c
-      internalID: 153154415
       vertices: []
       indices: 
       edges: []
@@ -6423,48 +6402,6 @@ TextureImporter:
       bones: []
       spriteID: c05cb23bb2a499d43807686e729c2707
       internalID: 1266693775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_301
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 512
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71930791a139aec48a502a6a705c6b32
-      internalID: -159421610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_302
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 512
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb2a5e52e1b153a47b6e03d652e0ce83
-      internalID: 864400311
       vertices: []
       indices: 
       edges: []
@@ -6785,48 +6722,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_318
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 504
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d66dca72f965c6448f33015e4f85c5c
-      internalID: -962997828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_319
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 504
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9402ecf2d7ec154893314e9fa514dc4
-      internalID: -1751249399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tiles_320
       rect:
         serializedVersion: 2
@@ -7142,27 +7037,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_335
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 496
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 299f186e31797f448aad3147985a9ed3
-      internalID: 113611936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tiles_336
       rect:
         serializedVersion: 2
@@ -7373,7 +7247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_346
+      name: Warp
       rect:
         serializedVersion: 2
         x: 72
@@ -7515,48 +7389,6 @@ TextureImporter:
       bones: []
       spriteID: 65da6d84251e9734e8070d3c6d3bf377
       internalID: -1739657412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_353
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 488
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f96f5f82201489e49b6d1ca25e61b873
-      internalID: 1011032305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_354
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 488
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 012af939c97d19249be8dc44a4c78a0c
-      internalID: 205195499
       vertices: []
       indices: 
       edges: []
@@ -7893,48 +7725,6 @@ TextureImporter:
       bones: []
       spriteID: 890b26e4accb23748822eaed9bb50c89
       internalID: -1000292125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_371
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 480
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18258e4096b06a1488734e07424db5c2
-      internalID: -1202378552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_372
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 480
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4ae9ac51b2777740a2896f132c494c4
-      internalID: 1600811949
       vertices: []
       indices: 
       edges: []
@@ -28067,7 +27857,7 @@ TextureImporter:
       Tiles_259: -537725905
       Tiles_808: 1083120344
       Tiles_468: -319753525
-      Tiles_346: -874730107
+      Tiles_1150: 1656723935
       Tiles_242: 1009645582
       Tiles_64: 2121121006
       Tiles_238: -452001017
@@ -28076,7 +27866,6 @@ TextureImporter:
       Tiles_189: 158367376
       Tiles_1209: -2119793108
       Tiles_344: -1252356611
-      Tiles_1150: 1656723935
       Tiles_1160: -283790145
       Tiles_458: 991867022
       Tiles_782: -1405273341
@@ -28106,6 +27895,7 @@ TextureImporter:
       Tiles_898: 1389272851
       Tiles_1248: -1344041377
       Tiles_1289: 690629172
+      Random_1: 1833198830
       Tiles_556: 78545930
       Tiles_330: 1468161688
       Tiles_1176: 1804675220
@@ -28183,6 +27973,7 @@ TextureImporter:
       Tiles_888: -1914198424
       Tiles_923: 1130532935
       Tiles_1126: -1610679969
+      Arbolillo0: 297790172
       Tiles_16: 2052992300
       Tiles_71: 1000569588
       Tiles_419: 1833595491
@@ -28423,9 +28214,12 @@ TextureImporter:
       Tiles_512: -717093608
       Tiles_750: 618615290
       Tiles_252: -1821356076
+      Sup_izq: 832139043
       Tiles_62: -106730323
       Tiles_364: 1047595893
+      Sup_Derecha: 1050438490
       Tiles_1132: -2133044369
+      Inferior_izq: 1693182806
       Tiles_504: -1524834296
       Tiles_145: 9086776
       Tiles_746: 514170796
@@ -28559,12 +28353,11 @@ TextureImporter:
       Tiles_1335: -501708289
       Tiles_51: -1403345037
       Tiles_606: 1224100521
-      Tiles_163: 1833198830
+      Tiles_1175: 1699776877
       Tiles_1266: -874279521
       Tiles_266: -304368534
       Tiles_1291: -1734999135
       Tiles_1076: -700019435
-      Tiles_1175: 1699776877
       SpikeUp: 532361804
       Tiles_1231: 1364050001
       Tiles_1136: 2014964029
@@ -28614,7 +28407,6 @@ TextureImporter:
       Tiles_765: -562074244
       Tiles_1349: -1251426359
       Tiles_1114: -654454248
-      Platform_Middle: 548314402
       Tiles_151: -1138419103
       Tiles_599: -907473649
       Tiles_905: 1503229605
@@ -28668,6 +28460,7 @@ TextureImporter:
       Tiles_1094: -1804792730
       Tiles_115: 1517228544
       Tiles_1234: -1824112638
+      Izquierda: -1189658208
       Tiles_897: 495346430
       Tiles_1104: 1792503892
       Tiles_192: 2097836603
@@ -28683,6 +28476,7 @@ TextureImporter:
       Tiles_691: -1816295922
       Tiles_308: 1271132402
       Tiles_284: -1138658272
+      random_0: 21910754
       Tiles_451: 749918001
       Tiles_1110: 941209386
       Tiles_348: 1973030299
@@ -28712,7 +28506,6 @@ TextureImporter:
       Tiles_1088: -1123756778
       Tiles_1290: -809461146
       Tiles_1216: -1810910638
-      Tiles_193: 1693182806
       Tiles_141: -575292676
       Tiles_214: 980634394
       Tiles_1025: -1834085818
@@ -28764,10 +28557,9 @@ TextureImporter:
       Tiles_974: -448225472
       Tiles_279: -978740028
       Tiles_983: 1762152289
-      Tiles_158: 832139043
+      Tiles_1171: 1402524229
       Tiles_171: 1959678546
       Tiles_749: -815888624
-      Tiles_1171: 1402524229
       Tiles_1251: 465357719
       Tiles_479: -453971864
       Tiles_607: -1181019798
@@ -28922,7 +28714,6 @@ TextureImporter:
       Tiles_546: -821942717
       Tiles_771: 1473381515
       Tiles_1007: -2135297738
-      Tiles_175: -1189658208
       Tiles_931: 676145756
       Tiles_1098: -956514677
       flor_4: 900946078
@@ -29006,11 +28797,11 @@ TextureImporter:
       Tiles_1305: 1988117617
       Tiles_188: -182634325
       Tiles_240: -193111826
-      Tiles_160: 21910754
       Tiles_265: 1881943901
       Tiles_695: -395176169
       Tiles_574: -810075556
       Tiles_805: -1689082581
+      Medio: 548314402
       Tiles_254: 46025434
       Tiles_1315: -707829402
       Tiles_1221: 915199117
@@ -29076,9 +28867,9 @@ TextureImporter:
       Tiles_438: -928062661
       Tiles_1194: -282426628
       Tiles_76: 595906224
+      Derecha: -2129476943
       Tiles_1316: 1927913250
       Tiles_1106: -748443455
-      Tiles_182: -2129476943
       Tiles_511: -572228695
       Tiles_961: 842410880
       Tiles_19: -925751811
@@ -29144,10 +28935,9 @@ TextureImporter:
       Tiles_756: -1939731016
       Tiles_938: -261161919
       Tiles_1103: 1643160172
-      Tiles_165: 1050438490
+      Tiles_526: 1785338624
       Tiles_168: 129813124
       Tiles_433: 876047068
-      Tiles_526: 1785338624
       Tiles_830: 1420386663
       Tiles_1224: 767499367
       Tiles_1159: 1574917932
@@ -29156,10 +28946,9 @@ TextureImporter:
       Tiles_297: 1762408029
       Tiles_434: -560005014
       Tiles_218: -993892092
-      Tiles_200: 1425516938
+      Tiles_659: 1208188997
       Tiles_513: 1486917192
       Tiles_868: -1296313668
-      Tiles_659: 1208188997
       Tiles_903: -1608952334
       Tiles_122: -652640003
       Tiles_1329: -2083725690
@@ -29176,7 +28965,7 @@ TextureImporter:
       Tiles_686: 1792251904
       Tiles_311: 159386132
       Tiles_564: 1257866431
-      Tiles_290: 297790172
+      Tiles_1183: -45390362
       Tiles_625: 582223822
       Tiles_738: -2062925778
       Tiles_1220: 1405022693
@@ -29210,13 +28999,13 @@ TextureImporter:
       Tiles_665: 2005905482
       Tiles_1286: -1064882059
       Tiles_1281: 590616414
-      Tiles_1183: -45390362
       Tiles_781: 1943014663
       Tiles_1120: 1941930566
       Tiles_1285: 2086472332
       Tiles_499: -1411265979
       Tiles_755: -97452926
       Tiles_11: -1737726395
+      Inferior_der: 1425516938
       Tiles_261: -1632688963
       Tiles_1269: 270859214
       Tiles_1145: -342141417
@@ -29235,6 +29024,7 @@ TextureImporter:
       Tiles_891: -77970839
       Tiles_1313: 190876035
       Tiles_1192: -1412245066
+      Warp: -874730107
       Tiles_759: -1229140585
       Tiles_1276: 879905562
       Tiles_112: -1730395486

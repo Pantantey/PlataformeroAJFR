@@ -7,24 +7,30 @@ public class Player : MonoBehaviour
     public int life = 2;
     public float speed;
     public float jumpForce;
+    public float cooldownTime = 0.5f;
     public GameObject bulletPrefab;
     public GameObject lifesPanel;
 
 
-    private float horizontal;
+    public float horizontal;
     private bool isGrounded;
+    private bool isInCooldown;
     private Vector2 initialPosition;
     private float lastShoot;
+    private GameObject destinyWarp;
 
     private Rigidbody2D bulletRigidbody;
+    private new Rigidbody2D rigidbody2D;
     private Animator animator;
     public Vector2 respawnPoint;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
         bulletRigidbody = GetComponent<Rigidbody2D>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         initialPosition = transform.position;
         respawnPoint = initialPosition;
@@ -65,6 +71,11 @@ public class Player : MonoBehaviour
                 jump();
             }
 
+            if (Input.GetKeyDown(KeyCode.M) && destinyWarp)
+            {
+                transform.position = destinyWarp.transform.position;
+            }
+
             deathOnFall();
         }
         
@@ -85,17 +96,35 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void Hit()
+    public void Hit(float knockback, GameObject enemy)
     {
-        if (life > 0)
+        if (!isInCooldown)
         {
-            lifesPanel.transform.GetChild(life).gameObject.SetActive(false);
-            life -= 1;
+            StartCoroutine(Cooldown());
+            if (life > 0)
+            {
+                lifesPanel.transform.GetChild(life).gameObject.SetActive(false);
+                life -= 1;
+                if (enemy)
+                {
+                    Vector2 difference = (transform.position - enemy.transform.position);
+                    float knockbackDirection = difference.x >= 0 ? 1 : -1;   //si force.x es mayor a 0 entonces =1 y sino es = -1
+                    rigidbody2D.velocity = new Vector2(knockbackDirection * knockback, knockback/2);
+                }
+            }
+            else
+            {
+                Death();
+            }
         }
-        else
-        {
-            Death();
-        }
+        
+    }
+
+    IEnumerator Cooldown()
+    {
+        isInCooldown = true;
+        yield return new WaitForSeconds(cooldownTime);
+        isInCooldown = false;
     }
 
     private void deathOnFall()
@@ -103,7 +132,7 @@ public class Player : MonoBehaviour
         if (transform.position.y < -10)
         {
             transform.position = respawnPoint;
-            Hit();
+            Hit(0, null);
         }
     }
 
@@ -118,23 +147,46 @@ public class Player : MonoBehaviour
 
     private void jump()
     {
-        bulletRigidbody.AddForce(Vector2.up * jumpForce);
+        rigidbody2D.AddForce(Vector2.up * jumpForce);
     }
 
     private void FixedUpdate()
     {
-        bulletRigidbody.velocity = new Vector2(horizontal, bulletRigidbody.velocity.y);
+        //caminar si no está stun
+        if (!isInCooldown)
+        {
+            bulletRigidbody.velocity = new Vector2(horizontal, bulletRigidbody.velocity.y);
+        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.name == "Tilemap") isGrounded = true;
+
+        if (collider.name == "PointA" || collider.name == "PointB")
+        {
+            GameObject warp = collider.transform.parent.gameObject;
+            if (collider.name == "PointA")
+            {
+                destinyWarp = warp.transform.Find("PointB").gameObject;
+
+            }
+            else
+            {
+                destinyWarp = warp.transform.Find("PointA").gameObject;
+            }
+        }
+        
     }
 
     private void OnTriggerExit2D(Collider2D collider)
     {
         if(collider.name == "Tilemap") isGrounded = false;
+        if (collider.name == "PointA" || collider.name == "PointB")
+        {
+            destinyWarp = null;
+        }
     }
-
 
 }

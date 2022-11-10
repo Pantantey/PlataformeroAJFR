@@ -10,6 +10,8 @@ public class GameController : MonoBehaviour
 
     public GameObject[] checkPoints;
 
+    public bool isFinal;
+
     private BoxCollider2D winCollider;
 
     public GameObject player;
@@ -24,9 +26,17 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (winCollider.IsTouching(playerCollider))
         {
-            SceneManager.LoadScene("Level" + (level + 1));
+            if (isFinal)
+            {
+                SceneManager.LoadScene("Win");
+            }
+            else
+            {
+                SceneManager.LoadScene("Level" + (level + 1));
+            }
         }
         foreach (var checkpoint in checkPoints)
         {
